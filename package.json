@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rimraf \"./built\"",
+    "bundle": "webpack",
+    "bundle-p": "webpack -p",
+    "build:pug": "pug -o built src built",
+    "build": "npm run build:pug & npm run bundle",
+    "rebuild": "npm run clean & npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "babel-preset-es2017": "^6.24.1",
+    "riotjs-loader": "^4.0.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^2.6.1",
+    "riot": "^3.6.0"
+  }
+}
