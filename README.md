@@ -1,6 +1,8 @@
 # webpack-learning
 フロントエンドのお勉強
 
+![image](image.png)
+
 ## Usage
 1. `npm install`
 2. `npm run rebuild`
