@@ -1,6 +1,12 @@
 # webpack-learning
 フロントエンドのお勉強
 
+## 利用技術
+- webpack
+- Riot.js
+- Babel
+- Pug
+
 ![image](image.png)
 
 ## Usage
