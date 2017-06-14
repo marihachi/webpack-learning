@@ -1,6 +1,4 @@
 # webpack-learning 02
-フロントエンドのお勉強2
-
 webpackにWebSocketを組み合わせて利用してみる
 
 <!--
