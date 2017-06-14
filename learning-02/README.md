@@ -1,5 +1,5 @@
 # webpack-learning 02
-webpackにWebSocketを組み合わせて利用してみる
+01の内容にWebSocketを組み合わせてみる
 
 <!--
 ![image](image.png)
