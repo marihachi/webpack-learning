@@ -19,6 +19,3 @@ webpackにWebSocketを組み合わせて利用してみる
 1. `npm install`
 2. `npm run rebuild`
 3. Open "http://localhost:3000" in the browser.
-
-## License
-MIT
