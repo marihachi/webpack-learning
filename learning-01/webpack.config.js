@@ -1,14 +1,16 @@
 const path = require('path');
 const webpack = require('webpack');
 
+const absolutePath = relative => path.join(__dirname, relative);
+
 module.exports = [
 	{
-		context: path.join(__dirname, 'src/assets'),
+		context: absolutePath('src/assets'),
 		entry: {
 			app: './app.js'
 		},
 		output: {
-			path: path.join(__dirname, 'built/assets'),
+			path: absolutePath('built'),
 			filename: 'bundle.js'
 		},
 		module: {
