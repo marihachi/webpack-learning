@@ -1,5 +1,6 @@
-# webpack-learning
+# webpack-learning 01
 フロントエンドのお勉強1
+
 webpackを使った基本的なプロジェクト
 
 ![image](image.png)
